@@ -60,6 +60,8 @@ public class ScoreFragment extends Fragment implements View.OnClickListener {
 
 
         plusButton.setOnClickListener(this);
+
+
         minusButton.setOnClickListener(this);
 
         return view;
