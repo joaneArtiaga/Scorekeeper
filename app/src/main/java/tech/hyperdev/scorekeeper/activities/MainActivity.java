@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         if(savedInstanceState == null) {
             FragmentManager fragmentManager = getSupportFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-            ScoreFragment firstTeam = new ScoreFragment("Team Name", 0);
-            ScoreFragment secondTeam = new ScoreFragment("Team Name", 0);
+            ScoreFragment firstTeam = new ScoreFragment("Team 1", 0);
+            ScoreFragment secondTeam = new ScoreFragment("Team 2", 0);
             fragmentTransaction.add(R.id.fragment_container, firstTeam, "First Team");
             fragmentTransaction.add(R.id.fragment2_container, secondTeam, "Second Team");
             fragmentTransaction.commit();
